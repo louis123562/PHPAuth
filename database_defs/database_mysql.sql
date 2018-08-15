@@ -108,7 +108,7 @@ CREATE TABLE `phpauth_sessions` (
 DROP TABLE IF EXISTS `phpauth_users`;
 CREATE TABLE `phpauth_users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `email` varchar(100) DEFAULT NULL,
+  `mail` varchar(100) DEFAULT NULL,
   `password` VARCHAR(255) CHARACTER SET latin1 COLLATE latin1_general_ci DEFAULT NULL,
   `isactive` tinyint(1) NOT NULL DEFAULT '0',
   `dt` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
